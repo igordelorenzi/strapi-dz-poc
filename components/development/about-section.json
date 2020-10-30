@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_development_about_sections",
+  "info": {
+    "name": "about section",
+    "icon": "exclamation-circle"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

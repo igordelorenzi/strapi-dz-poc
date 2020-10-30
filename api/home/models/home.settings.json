@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "featured_portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.featured-portfolio"
+    }
+  }
+}

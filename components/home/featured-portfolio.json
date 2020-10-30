@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_featured_portfolio",
+  "info": {
+    "name": "featured portfolio",
+    "icon": "warehouse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "neighborhoods": {
+      "type": "dynamiczone",
+      "components": [
+        "portfolio.neighborhood-block"
+      ]
+    }
+  }
+}

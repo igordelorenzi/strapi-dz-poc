@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_development_long_texts",
+  "info": {
+    "name": "long text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_development_titles",
+  "info": {
+    "name": "title",
+    "icon": "exclamation-circle"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

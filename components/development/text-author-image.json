@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_development_text_author_images",
+  "info": {
+    "name": "text + author + image",
+    "icon": "user-check"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_development_custom_sections",
+  "info": {
+    "name": "custom section",
+    "icon": "exclamation-circle"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "dynamiczone",
+      "components": [
+        "development.title",
+        "development.long-text",
+        "development.long-text-images",
+        "development.text-author-image"
+      ]
+    }
+  }
+}

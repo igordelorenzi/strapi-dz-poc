@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_development_long_text_images",
+  "info": {
+    "name": "long text + images",
+    "icon": "bolt"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "images_arrangement": {
+      "type": "enumeration",
+      "enum": [
+        "side_by_side",
+        "mosaic"
+      ]
+    },
+    "more_button_text": {
+      "type": "string"
+    }
+  }
+}

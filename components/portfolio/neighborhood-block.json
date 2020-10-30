@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_portfolio_neighborhood_blocks",
+  "info": {
+    "name": "neighborhood block",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "developments": {
+      "collection": "development"
+    }
+  }
+}

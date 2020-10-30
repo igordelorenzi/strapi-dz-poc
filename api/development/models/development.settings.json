@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "developments",
+  "info": {
+    "name": "development",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "development.about-section",
+        "development.custom-section"
+      ]
+    }
+  }
+}
